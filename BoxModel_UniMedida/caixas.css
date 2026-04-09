@@ -1,0 +1,10 @@
+.caixa-exemplo {
+  width: 200px; /* Largura do conteúdo */
+  height: 100px; /* Altura do conteúdo */
+  padding: 20px rgb(245, 255, 106); /* Preenchimento interno de 20px */
+  border: 7px solid #46ffff; /* Borda de 7px sólida */
+  margin: 10px auto rgb(105, 105, 255); /* Margem externa de 10px (topo/baixo) e centralizada (esquerda/direita) */
+  box-sizing: border-box; /* Garante que padding e border sejam incluídos na width/height total */
+}
+
+
