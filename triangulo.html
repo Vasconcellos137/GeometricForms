@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triângulo</title>
+
+    <style>
+        /* Para centralizar as figuras */
+        .container {
+            display: flex;
+            justify-content: center;  
+            align-items: center;
+            height: 100vh;
+        }
+
+        .triangulo {
+            width: 200px;
+            height: 200px;
+            background: #480064;
+            /* transform: skewX(-20deg); -> Isso aq faz o msm q mexer nas % ali em baixo..*/ 
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+            /* MODO ALTERNATIVO
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid purple; */ 
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="triangulo"></div>
+
+        <div class="exagono"></div>
+    </div>
+
+</body>
+
+</html>
